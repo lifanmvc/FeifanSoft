@@ -7,4 +7,4 @@ string connectionString="Server=服务器地址;Database=数据库名称;User ID
 如果无法覆盖，先停止站点，覆盖后再启动站点。
 
 注意：
-【Entity.tt】中，必要修改命名空间。
+【Entity.tt】中，不要修改命名空间。
