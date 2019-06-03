@@ -39,6 +39,7 @@ namespace FeifanSoft.ORM
            foreach(DataRow row in schema.Rows)
 
            {  #>  
+			   [Serializable]
 			   public class <#= row["TABLE_NAME"].ToString().Trim() #>                   
 			   {  <#                     
 					  ds.Tables.Clear();
